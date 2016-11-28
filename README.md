@@ -1,6 +1,8 @@
 # ユーザ認証機能のあるアプリを作ろう
 
-**リポジトリをfork、Cloud9にCloneしてから課題に取り掛かって下さい。**
+## 課題の進め方
+- リポジトリをfork、Cloud9にCloneします。
+- `cd elites-devise-auth`でelites-devise-authディレクトリに移動します。
 
 ## ユーザ認証機能って？
 
@@ -25,7 +27,9 @@ $ cd devise-auth
 ```
 
 <br>
-コミットしてリモートブランチにpushします。
-exerciseブランチを作成(ブランチ作成後にexerciseブランチに移動)し、resumeの内容に従って作業を進めて下さい。
-
-**※必ずリモートリポジトリのmasterブランチにpushしてから応用課題に取り組んで下さい。**
+上記まで終わったらコミット、プッシュを行って下さい。
+```bash
+$ git add .
+$ git commit -m "コメントメッセージを入力して下さい"
+$ git push origin master
+```
